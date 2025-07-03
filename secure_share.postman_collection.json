@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "21c2867f-7796-44d0-9eae-925eaa475b50",
+		"name": "secure_share",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46427587",
+		"_collection_link": "https://ayush-5038441.postman.co/workspace/Ayush's-Workspace~f34c14a6-b851-4dc9-8e34-0efdd5711d32/collection/46427587-21c2867f-7796-44d0-9eae-925eaa475b50?action=share&source=collection_link&creator=46427587"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/ops/upload/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUxNTM1Mjk0LCJpYXQiOjE3NTE1MzQ5OTQsImp0aSI6IjBmNmE3ZDhkNGMwNjQ3MWQ4YTc2YzIzNzI3MDc4OWQ5IiwidXNlcl9pZCI6M30.A8lr6dNgAIcZPTtg07IzsJO478kO9LmrB6wBmVhgYos",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/ayush/Downloads/CN - Unit 1.pptx"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/ops/upload/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"ops",
+						"upload",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
